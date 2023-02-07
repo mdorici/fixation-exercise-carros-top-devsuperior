@@ -1,4 +1,4 @@
-import './App.css'
+import './index.css';
 import Catalog from './routes/Catalog';
 
 export default function App() {
