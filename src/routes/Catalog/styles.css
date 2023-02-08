@@ -1,5 +1,9 @@
-#ct-catalog-section{
+#ct-catalog-section {
     padding: 40px 0;
+}
+
+.ct-catalog-main {
+    padding: 0 10px;
 }
 
 .ct-search-bar-container {
@@ -7,11 +11,14 @@
 }
 
 .ct-catalog-cards-container{
-    border: 1px solid blue;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
 }
 
 @media(min-width: 576px){
-    .catalog-main {
+    
+    .ct-catalog-main {
         padding: 0 20px;
     }
 }

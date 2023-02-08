@@ -4,8 +4,8 @@
 
 .ct-search-bar input {
     padding: 0 15px;
-    border: 1px solid var(--ct-color-font-placeholder);
     border-radius: 5px 0px 0px 5px;
+    border: 1px solid var(--ct-color-font-placeholder);
     border-right: none;
 }
 
